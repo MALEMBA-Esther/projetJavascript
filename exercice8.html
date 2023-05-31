@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+    function nombresPairs(tableau){
+    let Pairs=[];
+    for(let i = 0;i < tableau.length;i++){
+      if(tableau[i]%2==0){
+        Pairs.push(tableau[i]);
+      }
+    }
+    return Pairs;
+  }
+  let tab=[4,5,7,8,3,6]; 
+  nombresPairs(tab)
+  console.log(nombresPairs(tab))
+  </script>
+</body>
+</html>
